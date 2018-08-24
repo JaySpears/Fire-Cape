@@ -1,0 +1,203 @@
+.cape-wrapper {
+  height: 560px;
+  position: relative;
+  top: 33px;
+  width: 281px;
+  margin: 0 auto;
+  .overlay-one {
+    background: white;
+    height: 16px;
+    position: absolute;
+    z-index: 100;
+    width: 55px;
+    margin: 0 auto;
+    transform: skewY(9deg);
+    top: -11px;
+    left: 0;
+    right: 45px;
+    box-shadow: inset 0 -9px 8px -6px #000;
+  }
+  .overlay-two {
+    background: white;
+    height: 16px;
+    position: absolute;
+    z-index: 100;
+    width: 50px;
+    margin: 0 auto;
+    transform: skewY(-9deg);
+    top: -11px;
+    left: 0;
+    right: -55px;
+    box-shadow: inset 0 -9px 8px -6px #000;
+  }
+  .overlay-three {
+    height: 163px;
+    position: absolute;
+    background: white;
+    width: 100px;
+    z-index: 10;
+    transform: skewX(-16deg);
+    left: -36px;
+    top: 0px;
+    box-shadow: inset -9px 0px 5px -6px #000;
+  }
+  .overlay-four {
+    height: 179px;
+    position: absolute;
+    background: white;
+    width: 100px;
+    z-index: 10;
+    transform: skewX(-11.5deg);
+    left: -77px;
+    top: 162px;
+    box-shadow: inset -9px 0 5px -6px #000;
+  }
+  .overlay-five {
+    height: 163px;
+    position: absolute;
+    background: white;
+    width: 100px;
+    z-index: 10;
+    transform: skewX(16deg);
+    right: -36px;
+    top: 0px;
+    box-shadow: inset 9px 0 5px -6px #000;
+  }
+  .overlay-six {
+    height: 179px;
+    position: absolute;
+    background: white;
+    width: 100px;
+    z-index: 10;
+    transform: skewX(11.5deg);
+    right: -77px;
+    top: 162px;
+    box-shadow: inset 9px 0 5px -6px #000;
+  }
+  .overlay-seven {
+    height: 86px;
+    position: absolute;
+    background: white;
+    width: 30px;
+    z-index: 10;
+    top: 341px;
+    transform: skewX(-3deg);
+    left: -27px;
+    box-shadow: inset -9px 0 5px -6px #000;
+  }
+  .overlay-eight {
+    height: 152px;
+    position: absolute;
+    background: white;
+    width: 52px;
+    z-index: 10;
+    top: 426px;
+    transform: skewX(18deg);
+    left: -27px;
+    box-shadow: inset -9px 0 5px -6px #000;
+  }
+  .overlay-nine {
+    height: 86px;
+    position: absolute;
+    background: white;
+    width: 30px;
+    z-index: 10;
+    top: 341px;
+    transform: skewX(3deg);
+    right: -27px;
+    box-shadow: inset 9px 0 5px -6px #000;
+  }
+  .overlay-ten {
+    height: 152px;
+    position: absolute;
+    background: white;
+    width: 52px;
+    z-index: 10;
+    top: 426px;
+    transform: skewX(-18deg);
+    right: -27px;
+    box-shadow: inset 9px 0 5px -6px #000;
+  }
+  .overlay-eleven {
+    height: 86px;
+    position: absolute;
+    background: white;
+    width: 70px;
+    z-index: 10;
+    top: 512px;
+    left: 43px;
+    transform: rotate(-29deg) skewX(27deg);
+    box-shadow: inset -9px 9px 5px -6px #000;
+  }
+  .overlay-twelve {
+    height: 86px;
+    position: absolute;
+    background: white;
+    width: 70px;
+    z-index: 10;
+    top: 512px;
+    right: 43px;
+    transform: rotate(29deg) skewX(-27deg);
+    box-shadow: inset 9px 9px 5px -6px #000;
+  }
+  .overlay-thirteen {
+    height: 86px;
+    position: absolute;
+    background: #fff;
+    width: 70px;
+    z-index: 10;
+    top: 536px;
+    left: -25px;
+    background-color: white;
+    transform: rotate(159deg);
+  }
+  .overlay-fourteen {
+    height: 86px;
+    position: absolute;
+    background: #fff;
+    width: 70px;
+    z-index: 10;
+    top: 536px;
+    right: -25px;
+    background-color: white;
+    transform: rotate(-159deg);
+  }
+  .overlay-fifteen {
+    height: 86px;
+    position: absolute;
+    background: #fff;
+    width: 70px;
+    z-index: 10;
+    top: 536px;
+    left: 62px;
+    transform: rotate(125deg);
+  }
+  .overlay-sixteen {
+    height: 86px;
+    position: absolute;
+    background: #fff;
+    width: 100%;
+    bottom: -92px;
+    position: absolute;
+    z-index: 10;
+  }
+  .cape {
+    background-color: #95723d;
+    height: 100%;
+    width: 100%;
+  }
+  .cape-background {
+    background-image: url('../images/lava.png');
+    height: 100%;
+    width: 281px;
+    background-size: cover;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0px;
+    background-position: 0px 570px;
+    animation: lavaFlow 3s infinite;
+    animation-timing-function: linear;
+  }
+}

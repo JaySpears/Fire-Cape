@@ -1,0 +1,1 @@
+# Animated OSRS Fire Cape

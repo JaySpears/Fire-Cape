@@ -1,0 +1,32 @@
+.cape-strap {
+  position: relative;
+  width: 200px;
+  margin: 0 auto;
+  z-index: 101;
+  .strap-one,
+  .strap-two {
+    background: black;
+    height: 50px;
+    box-shadow: 0 0px 4px 1px #000;
+  }
+  .strap-one {
+    float: left;
+    position: relative;
+    left: 31px;
+    width: 15px;
+    -webkit-transform: rotate(-36deg) skewy(43deg);
+    transform: rotate(-36deg) skewy(43deg);
+    margin-top: 10px;
+    top: -21px;
+  }
+  .strap-two {
+    float: right;
+    width: 15px;
+    position: relative;
+    right: 32px;
+    -webkit-transform: rotate(33deg);
+    transform: rotate(36deg) skewy(-43deg);
+    top: -21px;
+    margin-top: 10px;
+  }
+}
